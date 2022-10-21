@@ -1,0 +1,10 @@
+# cajero automático
+def cajero():
+     a=num=int(input("Cuanto dinero vas a ingresar"))
+
+     b=int(input("cuanto quieres mi patrón"))
+     c=a-b
+     print(c)
+    
+
+cajero()
