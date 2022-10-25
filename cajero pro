@@ -1,0 +1,23 @@
+#cajero
+def cajero():
+
+     a=num=int(input("Cuanto dinero vas a ingresar mi patrón"))
+     seguir=True
+     while(seguir==True):
+           b=dinero=int(input("cuanto quieres mi patrón"))
+           if (b%5!=0):
+               print("no puedes patrón")
+               seguir=True
+           else:
+               seguir=True 
+               if(dinero%5==0):
+                   c="tu saldo es de "+str(a-b) " patrón"
+                   print(c)
+                   print ("seguir (S/N)?")
+                   si=input()
+                   if(si=="S"):
+                     print("bien")
+                     continue
+                   else:
+                        print ("Gracias por usar este servicio mi patrón")
+                  
