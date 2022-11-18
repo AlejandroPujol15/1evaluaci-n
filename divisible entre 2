@@ -1,0 +1,12 @@
+def Cargador():
+
+    continuar=True
+    while(continuar==True):
+        resp=int(input("Dime un numero par"))
+        if(resp*2==1):
+            print("Lo has hecho bien")
+            continuar=False
+        else:
+            print("No es par. Vuelvo a introducirlo ")
+        
+Cargador()
